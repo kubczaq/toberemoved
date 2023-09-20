@@ -23,20 +23,6 @@
             }
           },
           {
-            "name": "parameters",
-            "in": "query",
-            "description": "List of data model parameters to retrieve.\nIf parameters list is empty then complete data model is returned.\nData model path parts should be dot-separated.\nParameter name should not contain the root object, for example use *DeviceSummary* instead *InternetGatewayDevice.DeviceSummary*.\nQuery for all sub-parameters of given object should end with dot \".\", for example: parameters=Location.\n                ",
-            "style": "form",
-            "explode": false,
-            "schema": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              },
-              "default": ""
-            }
-          },
-          {
             "name": "exactId",
             "in": "query",
             "description": "\nParameter indicating whether provided id is used as an exact device identifier even when there are devices with the same serial number in the system.\n",
