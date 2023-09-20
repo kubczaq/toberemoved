@@ -10,7 +10,7 @@
         "tags": [
           "CachedDataModels"
         ],
-        "description": "Get values for device data model parameters given in query parameter.\n    ",
+        "description": "Get values for device data model parameters given in query parameter.",
         "operationId": "cachedDataModels_getParameters",
         "parameters": [
           {
